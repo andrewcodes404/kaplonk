@@ -17,14 +17,8 @@ class App extends Component {
       .then((snapshot) => {
         const snap = snapshot.val()
         let arrayOfUsers = []
-
         Object.keys(snap).map((key) => {
-          console.log("snap[key].id : ", snap[key].name);
-
           const name = snap[key].name
-          // snap[key].order.map((el)=>{
-          //     console.log("el : ", el);
-          // })      
           arrayOfUsers.push(name)
           return arrayOfUsers
         })

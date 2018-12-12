@@ -11,7 +11,6 @@ const prodConfig = {
     messagingSenderId: process.env.REACT_APP_PROD_MESSY_ID
 };
 
-
 const devConfig = {
     apiKey: process.env.REACT_APP_DEV_API_KEY,
     authDomain: process.env.REACT_APP_DEV_AUTHDOMIAN,
