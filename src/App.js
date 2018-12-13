@@ -33,7 +33,7 @@ class App extends Component {
     if (!this.state.users) return null
     return (
       <div className="App">
-        <h1>kaplunk</h1>
+        <h1>kaplunk...</h1>
         <div>
           <h1>yes users</h1>
           {this.state.users.map((el, index) => (<p key={index}>{el}</p>))}
